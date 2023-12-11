@@ -1,0 +1,89 @@
+/* header and footer for all pages */
+/*Body position----------------------------------------------------*/
+body {
+    margin: 0 0 0 0;
+    color: rgb(191,160,128);
+}
+/*--------------------------------------------------------------*/
+
+nav.horizontal {
+    display: table;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(53, 81, 151);
+    border-radius: 20px;
+}
+
+nav.horizontal ul {
+    display: table-row;
+    
+}
+
+nav.horizontal ul li {
+    display: table-cell;
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+nav.horizontal ul li#title {
+    width: 28%;
+}
+nav.horizontal ul li#title h1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.horizontal ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;  
+    border-radius: 20px;
+    background-color: rgb(32,42,68);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25vw;
+
+}
+
+nav.horizontal ul li h1 {
+    border-radius: 20px;
+    background-color: rgb(32,42,68);
+
+}
+
+nav.horizontal ul li a:hover {
+    color: rgb(27,159,152);  
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+}
+
+#grid img {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid h1 {
+    grid-column: span 5;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+

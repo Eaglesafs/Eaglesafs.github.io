@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>John's Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/survey.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+    <header>
+        <nav class="horizontal" id="mainLinks">
+            <ul>
+                <li id="title">
+                    <a href="index.html">John's Website</a>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="survey.html">Survey</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+
+        <section>
+            <h2>Survey</h2>
+            <form action="submit-survey.php" method="post">
+                <div class="question">
+                    <h3>How easy or hard was it to navigate the website?</h3>
+                    <ul class="options">
+                        <li>
+                            <input type="radio" id="q1a" name="q1" value="a">
+                            <label for="q1a">Very Easy</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q1b" name="q1" value="b">
+                            <label for="q1b">Easy</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q1c" name="q1" value="c">
+                            <label for="q1c">Hard</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="q1d" name="q1" value="d">
+                            <label for="q1d">Very Hard</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question">
+                    <h3>Was the website informative?</h3>
+                    <ul class="options">
+                        <li>
+                            <input type="checkbox" id="q2a" name="q2" value="a">
+                            <label for="q2a">Yes</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="q2b" name="q2" value="b">
+                            <label for="q2b">No</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="question">
+                    <h3>How would you rate the appearance of the website?</h3>
+                    <input type="range" id="q4" name="q4" min="1" max="10" step="1" value="">
+                </div>
+
+                <div class="question">
+                    <h3>Please provide any suggestions for improvement and areas where we excelled:</h3>
+                    <textarea id="q5txt" name="q5" placeholder="Enter your suggestions here"></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <nav class="horizontal" id="mainLinks">
+            <ul>
+                <li id="title">
+                    <div id="grid">
+                        <h1><a href="index.html"><img src="images/JA-Affinity-3.png" alt="Home"> </a></h1>
+                        <a href=""><img src="images/icons8-facebook-24.png" alt="fb"></a>
+                        <a href=""><img src="images/icons8-twitterx-24.png" alt="x"></a>
+                        <a href=""><img src="images/icons8-instagram-24.png" alt="ig"></a>
+                        <a href=""><img src="images/icons8-youtube-24.png" alt="yt"></a>
+                        <a href=""><img src="images/icons8-pinterest-24.png" alt="pt"></a>
+                    </div>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="survey.html">Survey</a></li>
+                <li></li>
+            </ul>
+            <ul>
+                <p>Thank you for visiting my website, and I hope you find it informative and enjoyable. Don't hesitate to reach out if you have any questions.</p>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
